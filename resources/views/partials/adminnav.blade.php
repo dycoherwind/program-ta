@@ -30,10 +30,10 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="{{ route('admin.produk') }}" class="nav-link {{ Request::is('admin/kategori') ? 'active' : '' }}">
-                        <i class="nav-icon fas fa-bicycle"></i>
+                    <a href="{{ route('admin.produk') }}" class="nav-link {{ Request::is('admin/produk') ? 'active' : '' }}">
+                        <i class="nav-icon fas fa-screwdriver-wrench"></i>
                         <p>
-                            Kategori
+                            Produk
                         </p>
                     </a>
                 </li>

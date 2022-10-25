@@ -36,7 +36,7 @@ Route::prefix('admin')->middleware('admin')->group(function() {
     });
 
     Route::prefix('produk')->group(function() {
-        Route::get('/');
+        Route::get('/')->name('admin.produk');
     });
 });
 
